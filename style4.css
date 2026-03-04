@@ -1,0 +1,67 @@
+@media (max-width: 768px) {
+
+    body {
+        background-attachment: scroll;
+        background-size: cover;
+    }
+
+    nav {
+        gap: 15px;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    nav a {
+        padding: 8px 14px;
+        font-size: 14px;
+    }
+
+    .container {
+        margin: 15px;
+        padding: 18px;
+    }
+
+    .card {
+        min-width: 85%;
+        max-width: 85%;
+    }
+
+    .card img {
+        height: 160px;
+    }
+
+    .news-section {
+        grid-template-columns: 1fr;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .news-card,
+    .container {
+        backdrop-filter: blur(6px);
+    }
+
+    .news-card {
+        box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    footer {
+        font-size: 13px;
+        padding: 15px;
+    }
+}
+
+@supports (-webkit-touch-callout: none) {
+    body {
+        background-attachment: scroll;
+    }
+}
