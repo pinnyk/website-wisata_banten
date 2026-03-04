@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <link rel="icon" type="image/x-icon" href="/datagambar/images.jpg">
+</head>
+<body>
+
+<head>
+    <title>Wisata Banten</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+
+<header>
+    <h1>Wisata Banten</h1>
+    <p>Keindahan Alam & Budaya Provinsi Banten</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="support.html">Support</a>
+    <a href="berita-terkini.html">Berita Wisata Terkini</a>
+</nav>
+
+<div class="container">
+
+    <h2>Selamat Datang di Website Wisata Banten</h2>
+
+<p>
+        Provinsi Banten merupakan salah satu destinasi wisata favorit di Indonesia 
+        yang menawarkan keindahan alam, kekayaan budaya, serta sejarah yang menarik. 
+        Terletak di ujung barat Pulau Jawa, Banten memiliki berbagai pilihan tempat wisata 
+        yang cocok untuk liburan keluarga, petualangan alam, maupun wisata religi.
+    </p>
+
+    <p>
+        Salah satu ikon wisata paling terkenal adalah Pantai Anyer yang memiliki pasir putih 
+        dan pemandangan matahari terbenam yang indah. Selain itu, terdapat juga Taman Nasional 
+        Ujung Kulon, kawasan Suku Baduy, hingga wisata religi Masjid Agung Banten.
+    </p>
+
+    
+     <h3>Rekomendasi Wisata Populer</h3>
+<ul>
+    <li>Pantai Anyer</li>
+    <li>Taman Nasional Ujung Kulon</li>
+    <li>Suku Baduy</li>
+    <li>Tanjung Lesung</li>
+    <li>Pantai Sawarna</li>
+    <li>Gunung Salak</li>
+    <li>Pantai Karang Bolong</li>
+    <li>Pulau Peucang</li>
+    <li>Masjid Agung Banten</li>
+    <li>Pantai Carita</li>
+</ul>
+
+<div class="slider-container">
+
+    <h2>Destinasi Wisata Populer</h2>
+
+    <button class="nav prev">&#10094;</button>
+
+    <div class="slider-wrapper">
+        <div class="slider" id="slider">
+
+            <div class="card">
+                <img src="datanya/pantai-anyer.jpg" alt="Pantai Anyer">
+                <div class="card-content">
+                    <h3>Pantai Anyer</h3>
+                    <p>Pantai dengan pasir putih dan sunset indah.</p>
+                    <a href="datanya/anyer.html">Lihat Detail</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="datanya/tamanujungkulon.jpg" alt="Ujung Kulon">
+                <div class="card-content">
+                    <h3>Ujung Kulon</h3>
+                    <p>Taman nasional dengan keindahan alam tropis.</p>
+                    <a href="datanya/ujungkulon.html">Lihat Detail</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="datanya/suku baduy.jpg" alt="Baduy">
+                <div class="card-content">
+                    <h3>Suku Baduy</h3>
+                    <p>Wisata budaya unik dengan tradisi terjaga.</p>
+                    <a href="datanya/baduy.html">Lihat Detail</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <button class="nav next">&#10095;</button>
+
+</div>
+
+
+<section class="home-news">
+
+    <div class="home-news-header">
+        <h2>Berita Wisata Terkini</h2>
+        <a href="berita-terkini.html" class="lihat-semua">Lihat Semua →</a>
+    </div>
+
+    <div class="home-news-container">
+
+        <div class="home-news-card">
+            <h4>Pantai Anyer Ramai Saat Libur Panjang</h4>
+            <p>Wisatawan dari berbagai daerah memadati Pantai Anyer untuk menikmati sunset...</p>
+            <a href="berita-terkini.html">Baca Selengkapnya</a>
+        </div>
+
+        <div class="home-news-card">
+            <h4>Ujung Kulon Jadi Destinasi Favorit 2026</h4>
+            <p>Taman Nasional Ujung Kulon semakin populer sebagai wisata alam dan konservasi...</p>
+            <a href="berita-terkini.html">Baca Selengkapnya</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+</div>
+
+<footer>
+    © 2026 Wisata Banten
+</footer>
+
+<script>
+const slider = document.getElementById('slider');
+const next = document.querySelector('.next');
+const prev = document.querySelector('.prev');
+
+let scrollAmount = 0;
+const cardWidth = 320; 
+
+next.addEventListener('click', () => {
+    scrollAmount += cardWidth;
+    if (scrollAmount > slider.scrollWidth - slider.clientWidth) {
+        scrollAmount = 0;
+    }
+    slider.style.transform = `translateX(-${scrollAmount}px)`;
+});
+
+prev.addEventListener('click', () => {
+    scrollAmount -= cardWidth;
+    if (scrollAmount < 0) {
+        scrollAmount = slider.scrollWidth - slider.clientWidth;
+    }
+    slider.style.transform = `translateX(-${scrollAmount}px)`;
+});
+</script>
+
+
+</body>
+</html>
