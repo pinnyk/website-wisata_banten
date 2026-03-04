@@ -76,4 +76,9 @@ pantai-anyer.jpg ├── tamanujungkulon.jpg └── suku-baduy.jpg
 
 ## 📄 Lisensi
 
-Project ini dibuat untuk pembelajaran dan portofolio.
+Saya Membuat Project ini karena disuruh guru
+Kelompok Wisata Banten 
+
+Anggota:
+- Vino Virgiawan (10 X RPL 2)
+- Muhammad Ferdiansyah (10 X RPL 2)
