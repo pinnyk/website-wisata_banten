@@ -1,37 +1,79 @@
-# 🚀 [Nama Proyek Kamu]
+# 🌊 Website Wisata Banten
 
-> Deskripsi singkat dan padat tentang apa yang dilakukan proyek web ini. Contoh: "Situs portofolio pribadi yang dibangun dengan fokus pada kecepatan dan desain minimalis."
+Website informasi destinasi wisata di Provinsi Banten yang menampilkan
+tempat wisata populer, berita wisata terkini, serta tampilan modern dan
+responsive.
 
----
+------------------------------------------------------------------------
 
 ## 🌐 Demo Live
-Lihat hasilnya di sini: [**Link Demo Proyek**](https://username.github.io/nama-repo/)
 
----
+https://username.github.io/nama-repo/
+
+------------------------------------------------------------------------
 
 ## ✨ Fitur Utama
-* 📱 **Responsive Design**: Tampilan yang menyesuaikan di layar HP hingga Desktop.
-* 🎨 **Modern UI**: Menggunakan skema warna yang nyaman di mata.
-* ⚡ **Fast Loading**: Optimasi gambar dan kode yang ringan.
-* 📝 **Semantic HTML**: Struktur kode yang ramah SEO dan aksesibilitas.
+
+-   📱 Responsive Design (Mobile, Tablet, Desktop)
+-   🎨 Modern UI dengan efek glassmorphism & animasi hover
+-   🖼️ Slider destinasi wisata interaktif
+-   📰 Halaman berita wisata terkini
+-   ⚡ Ringan & cepat (tanpa framework berat)
+
+------------------------------------------------------------------------
 
 ## 🛠️ Teknologi yang Digunakan
-* **HTML5** - Struktur utama.
-* **CSS3** - Layouting dengan Flexbox/Grid dan animasi.
-* **JavaScript** - (Opsional) Interaktivitas pada menu/tombol.
-* **Font Awesome** - Untuk ikon yang digunakan.
+
+-   HTML5
+-   CSS3 (Flexbox, Grid, Animasi, Responsive Layout)
+-   JavaScript (Vanilla JS)
+-   Font Awesome (opsional)
+
+------------------------------------------------------------------------
 
 ## 📸 Tampilan Web
-| Desktop | Mobile |
-| :--- | :--- |
-| ![Desktop Screenshot](https://via.placeholder.com/600x400) | ![Mobile Screenshot](https://via.placeholder.com/200x400) |
 
----
+Ganti gambar di bawah ini dengan screenshot asli websitemu.
+
+  -----------------------------------------------------------------------------------------------------
+                       Desktop                                             Mobile
+  -------------------------------------------------- --------------------------------------------------
+                      ![Desktop                                           ![Mobile
+   Screenshot](https://via.placeholder.com/600x400)   Screenshot](https://via.placeholder.com/200x400)
+
+  -----------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+## 📂 Struktur Folder
+
+Website-Wisata-Banten/ │ ├── index.html ├── berita.html ├── style.css
+├── style2.css ├── style3.css ├── script.js └── datanya/ ├──
+pantai-anyer.jpg ├── tamanujungkulon.jpg └── suku-baduy.jpg
+
+------------------------------------------------------------------------
 
 ## ⚙️ Cara Instalasi Lokal
 
-Jika kamu ingin menjalankan proyek ini di komputer kamu sendiri:
+1.  Clone repository: git clone
+    https://github.com/username/nama-repo.git
 
-1. **Clone Repositori**
-   ```bash
-   git clone [https://github.com/username/nama-repo.git](https://github.com/username/nama-repo.git)
+2.  Masuk ke folder: cd nama-repo
+
+3.  Buka file index.html di browser.
+
+------------------------------------------------------------------------
+
+## 🚀 Deploy ke GitHub Pages
+
+1.  Masuk ke Settings repository
+2.  Pilih Pages
+3.  Pilih branch main
+4.  Save
+5.  Akses melalui: https://username.github.io/nama-repo/
+
+------------------------------------------------------------------------
+
+## 📄 Lisensi
+
+Project ini dibuat untuk pembelajaran dan portofolio.
